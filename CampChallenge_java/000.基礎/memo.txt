@@ -1,0 +1,8 @@
+macOS High Sierra
+バージョン　：　10.13.4
+ビルド　：　17E202
+MacBook Pro (Retina, 15-inch, Mid 2014)
+プロセッサ　：　2.2 GHz Intel Core i7
+メモリ　：　16 GB 1600 MHz DDR3
+グラフィックス　：　Intel Iris Pro 1536 MB
+シリアル番号　：　C02NVD9JG3QC
