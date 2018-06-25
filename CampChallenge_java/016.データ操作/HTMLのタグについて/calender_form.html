@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>入力フォーム</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <h2>情報を入力してください</h2>
+        
+        <form action="./calendar_data_form.jsp" method="post">
+            
+            <h3>あなたのお名前</h3>
+                <input type="text" name="txtName">
+        
+            <h3>性別</h3>
+                男<input type="radio" name="gender" value="男性">
+                女<input type="radio" name="gender" value="女性">
+            
+            <h3>ご職業</h3>
+                <select name="jobList">
+                    <option value="選択されていません">選択してください</option>
+                    <option value="会社員">会社員</option>
+                    <option value="自営業">自営業</option>
+                    <option value="専業主婦">専業主婦</option>
+                    <option value="パート・アルバイト">パート・アルバイト</option>
+                    <option value="学生">学生</option>
+                    <option value="その他">その他</option>
+                </select>
+        
+            <h3>ご希望のお日にちをお選びください</h3>
+                <input type="date" name="calendar" max="9999-12-31">
+                
+        <br><input type="submit" name="btnSubmit" value="送信する">
+            <input type="reset" value="入力内容をリセットする">
+
+        </form>
+
+
+    </body>
+</html>
